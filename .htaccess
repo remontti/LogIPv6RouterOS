@@ -1,0 +1,8 @@
+Options -Indexes
+<RequireAll>
+    <RequireAny>
+        Require ip 200.200.200.0/24
+		Require ip 192.168.0.0/26
+        Require ip 2001:db8::/32
+    </RequireAny>
+</RequireAll>
