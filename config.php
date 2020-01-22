@@ -1,6 +1,6 @@
 <?php
 /* Your security token  https://senhasegura.remontti.com.br/*/
-$token = 'eEeQxJIdnDg12kEE';
+$token = 'xxxxxxxxxxxxxxxxxxxx';
 
 /* Set langage */
 // Portugês Brasil: pt-br
