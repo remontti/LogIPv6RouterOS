@@ -1,4 +1,4 @@
-# Como entregando IPv6+IPv4 através de PPPoE/DHCPv6 PD e registrando os logs em um banco de dados utilizando Mikrotik/RouterOS
+# IPv6+IPv4 - PPPoE/DHCPv6 PD - Mikrotik/RouterOS
 
 https://blog.remontti.com.br/3931
 
