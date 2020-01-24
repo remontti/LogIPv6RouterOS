@@ -1,7 +1,7 @@
 <?php
   require("func.php");
   session_start();
-  $today = date("Y-m-d H:i:s");
+  $today = date("Y-m");
   if ((!isset($_SESSION['auth'])) and ($_SESSION['auth'] != md5("$token"))) {
     $form_toke = true;
     $form_search = false;
@@ -74,13 +74,13 @@
       <div class="col-sm-4">
         <div class="form-group">
           <label for="start"><?= _DATESTART ?></label>
-          <input type="text" class="form-control" id="start" name="start" placeholder="<?php echo $today; ?>" value="<?php echo $today; ?>">
+          <input type="text" class="form-control" id="start" name="start" placeholder="<?php echo $today; ?>-01 00:00:00" value="<?php echo $today; ?>-01 00:00:00">
         </div>
       </div>
       <div class="col-sm-4">
         <div class="form-group">
           <label for="stop"><?= _DATESTOP ?></label>
-          <input type="text" class="form-control" id="stop" name="stop" placeholder="<?php echo $today; ?>" value="<?php echo $today; ?>">
+          <input type="text" class="form-control" id="stop" name="stop" placeholder="<?php echo $today; ?>-31 23:59:59" value="<?php echo $today; ?>-31 23:59:59">
         </div>
       </div>
       <div class="col-sm-8 justify-content-center">
