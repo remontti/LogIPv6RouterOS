@@ -9,3 +9,5 @@ define("_DATESTOP", "Date/Time Stop");
 define("_SEARCH", "Search");
 define("_NOFOUND", "No results found!");
 define("_CONNECTED", "Connected");
+define("_OR", "Or");
+define("_USER", "User");
