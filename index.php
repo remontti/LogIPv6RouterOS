@@ -67,7 +67,7 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="form-group">
-          <label for="ip">IP</label>
+          <label for="ip">IP <?= _OR ?> <?= _USER ?></label>
           <input type="text" class="form-control" id="ip" name="ip" placeholder="2001:db8:abcd:100::/56">
         </div>
       </div>
@@ -85,9 +85,10 @@
       </div>
       <div class="col-sm-8 justify-content-center">
         <div class="checkbox">          
-          <label class="col-md-3"><input type="radio" name="column" checked="" value="dhcpv6pd"> DHCPv6 PD Pool</label>
-          <label class="col-md-3"><input type="radio" name="column" value="remoteipv6"> Remote IPv6 Prefix Pool</label>
-          <label class="col-md-3"><input type="radio" name="column" value="ipv4"> Remote IPv4</label>          
+          <label class="col-md-3"><input type="radio" name="column" checked="" value="dhcpv6pd"> DHCPv6 PD</label>
+          <label class="col-md-3"><input type="radio" name="column" value="remoteipv6"> Remote IPv6 Prefix</label>
+          <label class="col-md-2"><input type="radio" name="column" value="ipv4"> Remote IPv4</label>
+          <label class="col-md-2"><input type="radio" name="column" value="user"> <?= _USER ?></label>        
         </div>
       </div>
       <div class="col-sm-4">
