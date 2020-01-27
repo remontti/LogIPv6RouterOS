@@ -9,3 +9,5 @@ define("_DATESTOP", "Data/Hora Fim <small class=\"text-muted\">(ano-mês-dia hor
 define("_SEARCH", "Pesquisar");
 define("_NOFOUND", "Nenhum resultado encontrado!");
 define("_CONNECTED", "Conectado");
+define("_OR", "ou");
+define("_USER", "Usuário");
